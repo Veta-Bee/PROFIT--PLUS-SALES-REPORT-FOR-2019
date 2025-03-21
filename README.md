@@ -26,8 +26,8 @@ The data was gathered through an automated process, integrating sales transactio
 5.	Total Amount by Customer Type –this help Differentiate between members and normal customers, revealing the impact of membership programs on sales.
 6.	Sales Amount by Product Line – by Identifying best-performing product categories, it will help the company focus on high-demand products.
 7.	Sales Amount by Branch – by evaluating performance across different branches, it wil enable the replication of successful strategies in underperforming locations.
-8.	
 
+   
 **Data Limitations or Biases**
 
 **1.	Sample Bias:**
@@ -47,44 +47,47 @@ The data was gathered through an automated process, integrating sales transactio
 *Some product categories, such as "Food & Beverages" and "Sports & Travel," dominate sales. This could be due to their essential nature rather than superior sales strategies.
 *Other product lines with low sales data may be undervalued, even if they have high profit margins.
 
-**6.	Branch Performance Variability:**
+**5.	Branch Performance Variability:**
 
 *Branch C outperforms others, but the dashboard does not indicate whether this is due to higher foot traffic, better location, pricing strategies, or customer preferences.
 *There might be operational factors (e.g., marketing spend, promotions, staff performance) that skew the sales differences between branches.
+
+
 
 **1. Data Cleaning:**
 •	Duplicate Removal: The dataset downloaded from kaggle was properly checked for duplicate transactions to prevent inflated sales figures.
 •	Standardizing Formats: I ensured consistency in date formats, product categories, and customer types to facilitate accurate analysis.
 
-**2. Handling Missing Values:**
+**. Handling Missing Values:**
 
 •	Excel Functions: I used tools like IFERROR, VLOOKUP, and AVERAGEIF which was used to handle gaps efficiently.
 
-**3. Data Transformations:**
+**. Data Transformations:**
 •	Aggregation: Sales data was grouped by month, city, and customer type to generate meaningful insights.
 •	New Variables: Metrics such as sales growth, percentage contributions of payment methods, and customer retention rates would be computed next time.
 
-**4. Data Splitting:**
+**. Data Splitting:**
 •	Dependent Variable: Total sales amount, which is influenced by various factors.
 •	Independent Variables: Product category, branch, customer type, city, and payment method, as these influence the sales figures.
 
-**5. Industry Context:**
+**. Industry Context:**
 •	 The data is from a multi-branch retail company, with insights that are relevant for store operations, marketing, and sales strategy optimization.
 
-**6. Stakeholders Benefiting from Analysis:**
+**. Stakeholders Benefiting from Analysis:**
 •	Marketing Team: They can leverage insights on high-performing products, seasonal trends, and customer behavior for better targeting.
 •	Operations & Supply Chain: This can help manage inventory more effectively based on demand fluctuations.
 •	Senior Management: The information gotten can be used to strategize branch expansions, promotions, and pricing adjustments.
 •	Finance Department: It gives clearer understanding of  sales trends and profitability for budget planning.
 
-**7. Value to the Industry:**
+
+**. Value to the Industry:**
 
 •	By optimizing product offerings, it can help determine which product categories are most profitable.
 •	By enhancing Customer Experience, it helps for easy understanding payment preferences and loyalty program effectiveness which can leads to better engagement.
 
 •	The competitive Advantage allows the company to stay ahead by leveraging sales trends and customer preferences for long-term growth.
 
-**1. Key Trends:**
+**. Key Trends:**
 
 **•	Seasonal Sales Spikes:**
 *Sales show peaks in early February and March, suggesting increased customer activity, possibly due to promotional campaigns or seasonal demand.
@@ -103,20 +106,21 @@ The data was gathered through an automated process, integrating sales transactio
 *it’s obvious that members spend more than non-members ($164,223 vs. $158,743), indicating that loyalty programs drive higher purchases.
 *From my observation, cash remains the most preferred payment method, followed closely by E-Wallets, while credit cards have a slightly lower rating.
 
-**2. Potential Correlations:**
+**. Potential Correlations:**
 
 •	From membership and sales, the higher spending by members suggests that loyalty programs and exclusive discounts may effectively drive repeat purchases.
 •	From branch location & performance, Branch C and Naypyitaw suggests that customer density, marketing strategies, or regional preferences significantly influence sales.
 •	From payment preferences & convenience, they have nearly equal preference for cash and E-Wallets suggests a potential shift toward digital payments, which could be leveraged through targeted incentives.
 
-**3. Initial Insights & Questions Raised:**
+**. Initial Insights & Questions Raised:**
 
 •	Why does Naypyitaw have higher sales? Does this result from better promotions, a higher customer base, or favorable local conditions?
 •	What causes the sales spikes in February and March? Are there specific promotions or seasonal factors influencing this trend?
 •	How can the success of Branch C be replicated in other branches to boost sales performance?
 •	Can digital payments be further encouraged? Offering incentives for E-Wallet and credit card transactions could drive a shift toward faster and more secure transactions.
 
-**1. Unconfirmed Insights (Hypotheses Yet to Be Verified):**
+
+**. Unconfirmed Insights (Hypotheses Yet to Be Verified):**
 
 **•	Higher Sales in Naypyitaw:**
 
@@ -133,7 +137,9 @@ The data was gathered through an automated process, integrating sales transactio
 
 *Members contribute more to total sales than non-members. While this suggests that loyalty programs drive repeat purchases, further analysis is needed to determine whether the higher spending is due to better deals for members or a higher frequency of visits.
 
-**2. Recommendations Based on Insights:**
+
+
+**. Recommendations Based on Insights:**
 
 **•	Expand High-Performing Product Categories:**
 
@@ -155,7 +161,8 @@ The data was gathered through an automated process, integrating sales transactio
 
 *Since cash and E-Wallet payments are preferred over credit cards, offering discounts or incentives for digital payments could accelerate the transition to a more efficient and secure transaction process.
 
-**3. Analysis Techniques Used in Excel:**
+
+**. Analysis Techniques Used in Excel:**
 
 •	Pivot Tables was used to summarize sales data by branch, product line, customer type, and payment method, allowing for quick trend identification.
 •	Advanced Formulas like (VLOOKUP, HLOOKUP, INDEX-MATCH) was applied to cross-reference product categories, branch performance, and customer segments.
@@ -163,7 +170,8 @@ The data was gathered through an automated process, integrating sales transactio
 •	Charts & Graph was also used to visualize sales trends over time, customer spending habits, and product category performance.
 •	Data Filtering & Sorting was used to enable quick comparisons of sales across different locations and customer segments.
 
-**1. Main Takeaways from the Analysis:**
+
+**. Main Takeaways from the Analysis:**
 
 **•	Branch C is the Best Performer:**
 
@@ -194,14 +202,17 @@ The data was gathered through an automated process, integrating sales transactio
 *There is a significant increase in sales in February and March which suggests that targeted marketing campaigns or seasonal trends drive customer spending.
 *These spikes should be further analyzed to determine if they can be replicated in other months.
 
-**2. Comparison with Initial Expectations:**
+
+**. Comparison with Initial Expectations:**
 •	Branch C’s Success Was Expected, but the Margin Was Higher Than Anticipated meaning the initial insights suggested that Branch C might perform well, but its lead over Branches A and B was more significant than expected.
 
 •	The Popularity of the Food & Beverage Category Aligns with Initial Assumptions which means that Food & Beverages would be a top-performing category, and the analysis confirmed this.
 
 •	Sales Spikes in February and March Were Unexpected Initially, January was identified as the peak sales month, but further analysis revealed that February and March also experience strong sales. This then suggests potential seasonal or promotional factors at play that should be explored further.
 
-•	The Dominance of Cash Transactions Was Not Initially Expected, It was assumed that E-Wallets or credit cards might be more widely used, but cash remains the preferred method, This then presents an opportunity to increase digital payment adoption through discounts or incentives
+•	The Dominance of Cash Transactions Was Not Initially Expected, It was assumed that E-Wallets or credit cards might be more widely used, but cash remains the preferred method, This then presents an opportunity to increase digital payment adoption through discounts or incentives.
+
+
 
 **PRE-ANALYSIS**
 
@@ -211,11 +222,14 @@ Before building the charts, I conducted a pre-analysis to better understand the 
 
 Project Split: I categorized the data points into dependent and independent variables, helping me understand the relationships within the dataset and what types of insights could be extracted. Potential Analysis & Questions: From the grouped variables, I generated key questions that the dataset could answer. This step highlighted the potential insights hidden within the data, even before visualizing it. Preliminary Insights: By thinking through the questions and data points, I uncovered early insights, which made it easier to shape the narrative and focus the analysis on valuable outcomes. Storytelling: Once I had a clear understanding of the dataset, I could tell a story from it. By putting together the relationships between the datapoints and the insights uncovered. Industry & Stakeholders: This process helped me identify the relevant industry, the stakeholders who would benefit from the analysis, and what success would look like for the organization based on the findings.
 
+
 **TOTAL AMOUNT BY CUSTOMER TYPE**
+
 
 ![Screenshot 2025-03-19 091540](https://github.com/user-attachments/assets/52b126c4-c2ee-4756-8119-b2c5d038a7ee)
 
-The data indicates that members generate higher total sales ($164,223) compared to non-members ($158,743), suggesting that loyalty programs may positively influence spending behavior, but the margin is relatively small, highlighting potential opportunities to further differentiate member benefits to maximize customer retention and revenue growth
+The data indicates that members generate higher total sales ($164,223) compared to non-members ($158,743), suggesting that loyalty programs may positively influence spending behavior, but the margin is relatively small, highlighting potential opportunities to further differentiate member benefits to maximize customer retention and revenue growth.
+
 
 **SALES AMOUNT BY DATE**
 
@@ -223,11 +237,13 @@ The data indicates that members generate higher total sales ($164,223) compared 
 
 The sales trend exhibits significant fluctuations, with a peak in January ($43,644.55) followed by a decline in mid-year (June: $17,195.63) and a secondary peak in September ($37,027.73), suggesting potential seasonality or external factors influencing purchasing behavior, while the sharp drop in November ($13,490.79) and December ($15,211.17) may indicate a need for targeted promotions to boost year-end sales.
 
+
 **SALES AMOUNT BY GENDER**
 
 ![image](https://github.com/user-attachments/assets/b6eed6ac-2621-415d-b094-3017a3dda15e)
 
 The sales distribution by gender shows that female customers contributed slightly more ($167,882.93) than male customers ($155,083.82), indicating a near-balanced purchasing behavior but with a marginally higher engagement or spending tendency among female buyers, which could inform targeted marketing strategies.
+
 
 **SALES AMOUNT BY PRODUCT LINE**
 
@@ -235,11 +251,13 @@ The sales distribution by gender shows that female customers contributed slightl
 
 The Food and Beverages category leads in total sales ($56,144.84), followed closely by Sports and Travel ($55,122.83) and Electronic Accessories ($54,337.53), while Health and Beauty ($49,193.74) has the lowest sales, suggesting that demand is relatively balanced across product lines, but promotional efforts could focus on boosting lower-performing categories.
 
+
 **PAYMENT TYPE BY RATING**
 
 ![image](https://github.com/user-attachments/assets/f1c6b49c-e0bc-4a0e-95e5-48304b0dd7c5)
 
 The Cash (2,397.70) and E-wallet (2,397.00) payment methods received the highest ratings, while Credit Card (2,178.00) had the lowest, suggesting that customers may find cash and digital wallets more convenient or reliable, whereas credit cards may have certain drawbacks such as processing time or fees.
+
 
 **SALES AMOUNT BY CITY**
 
@@ -247,15 +265,18 @@ The Cash (2,397.70) and E-wallet (2,397.00) payment methods received the highest
 
 The sales distribution across cities shows that Naypyitaw ($110,569) had the highest sales, followed closely by Yangon ($106,200) and Mandalay ($106,198), indicating a relatively balanced sales performance across all three cities with only a slight advantage in Naypyitaw.
 
+
 **SALES AMOUNT BY BRANCH**
 
 ![image](https://github.com/user-attachments/assets/46252b7e-1397-4e13-bd62-a20207baa317)
 
 Branch C recorded the highest sales at $110,568.71, while branches A ($106,200.37) and B ($106,197.67) had almost identical sales figures, indicating a relatively balanced sales distribution across the branches, with only a slight lead by Branch C.
 
+
 **FINAL RECOMMENDATION**
 
 ![Screenshot 2025-03-19 092514](https://github.com/user-attachments/assets/0dea4f03-3a90-4cf6-af67-33bfca2318dc)
+
 
 **Recommendations**
 Leverage Branch C’s Success: Analyze its customer traffic, sales strategies, and promotional efforts to replicate the model in Branch A and B for enhanced sales performance.
@@ -266,6 +287,7 @@ Enhance Loyalty Programs: Provide personalized discounts, cashback rewards, and 
 
 Encourage Digital Payments: Offer incentives for E-wallet and credit card transactions to drive a shift toward cashless payments, enhancing security and efficiency.
 
+
 **Market-Specific Strategies**
 
 Identify Seasonal Sales Trends: Understand the factors behind February and March sales spikes and apply similar strategies year-round through targeted campaigns and exclusive product launches.
@@ -275,6 +297,7 @@ City-Specific Marketing: Strengthen presence in Naypyitaw while identifying grow
 Gender-Specific Campaigns: Develop marketing strategies tailored to both male and female customers to ensure balanced brand appeal and maximize sales across demographics.
 
 ![image](https://github.com/user-attachments/assets/61294316-80cd-4715-8d22-f896ae6b4453)
+
 
 **Key Observations**
 
@@ -291,6 +314,7 @@ Seasonal Sales Trends: Sales spiked notably in February and March, reaching $35,
 Sales by City: Among the three cities, Naypyitaw led with the highest revenue ($110,568.71), closely followed by Yangon ($106,200.37) and Mandalay ($106,197.67), showing relatively even sales distribution but with a slight edge for Naypyitaw.
 
 Gender-Based Spending Patterns: Male customers spent slightly more than females, with total expenditures of $167,882.93 compared to $155,083.82, suggesting potential differences in purchasing behavior or product preferences.
+
 
 **CONCLUSION**
 
