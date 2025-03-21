@@ -56,26 +56,43 @@ The data was gathered through an automated process, integrating sales transactio
 
 
 **1. Data Cleaning:**
-•	Duplicate Removal: The dataset downloaded from kaggle was properly checked for duplicate transactions to prevent inflated sales figures.
-•	Standardizing Formats: I ensured consistency in date formats, product categories, and customer types to facilitate accurate analysis.
 
-**. Handling Missing Values:**
+**•	Duplicate Removal:** 
 
-•	Excel Functions: I used tools like IFERROR, VLOOKUP, and AVERAGEIF which was used to handle gaps efficiently.
+The dataset downloaded from kaggle was properly checked for duplicate transactions to prevent inflated sales figures.
+
+**•	Standardizing Formats:**
+
+I ensured consistency in date formats, product categories, and customer types to facilitate accurate analysis.
+
+
+**•	Excel Functions:**  
+
+I used tools like IFERROR, VLOOKUP, and AVERAGEIF which was used to handle gaps efficiently.
 
 **. Data Transformations:**
 
-•	Aggregation: Sales data was grouped by month, city, and customer type to generate meaningful insights.
-•	New Variables: Metrics such as sales growth, percentage contributions of payment methods, and customer retention rates would be computed next time.
+**Aggregation:**
+
+Sales data was grouped by month, city, and customer type to generate meaningful insights.
+
+**New Variables:**
+
+Metrics such as sales growth, percentage contributions of payment methods, and customer retention rates would be computed next time.
+
 
 **. Data Splitting:**
+
 •	Dependent Variable: Total sales amount, which is influenced by various factors.
+
 •	Independent Variables: Product category, branch, customer type, city, and payment method, as these influence the sales figures.
 
 **. Industry Context:**
+
 •	 The data is from a multi-branch retail company, with insights that are relevant for store operations, marketing, and sales strategy optimization.
 
 **. Stakeholders Benefiting from Analysis:**
+
 •	Marketing Team: They can leverage insights on high-performing products, seasonal trends, and customer behavior for better targeting.
 
 •	Operations & Supply Chain: This can help manage inventory more effectively based on demand fluctuations.
@@ -99,34 +116,49 @@ The data was gathered through an automated process, integrating sales transactio
 **. Key Trends:**
 
 **•	Seasonal Sales Spikes:**
+
 *Sales show peaks in early February and March, suggesting increased customer activity, possibly due to promotional campaigns or seasonal demand.
+
 *January recorded the highest sales among all months, indicating a strong start to the year.
 
+
 **•	Regional Performance:**
+
 *Naypyitaw leads in total sales ($110,568.71), surpassing Yangon and Mandalay. This suggests higher customer demand or better sales strategies in this city.
+
 *Branch C outperforms Branches A and B in terms of sales, indicating a stronger market presence or more effective customer engagement.
 
 **•	Best-Selling Product Categories:**
+
 *Food & Beverages generate the highest sales ($56,144.84), followed closely by sports and travel ($55,122.83), showing strong demand for essential and lifestyle-related products.
+
 *Categories like fashion accessories and home & lifestyle also contribute significantly but at lower levels.
+
 
 **•	Customer Spending Behavior:**
 
 *it’s obvious that members spend more than non-members ($164,223 vs. $158,743), indicating that loyalty programs drive higher purchases.
+
 *From my observation, cash remains the most preferred payment method, followed closely by E-Wallets, while credit cards have a slightly lower rating.
+
 
 **. Potential Correlations:**
 
 •	From membership and sales, the higher spending by members suggests that loyalty programs and exclusive discounts may effectively drive repeat purchases.
+
 •	From branch location & performance, Branch C and Naypyitaw suggests that customer density, marketing strategies, or regional preferences significantly influence sales.
+
 •	From payment preferences & convenience, they have nearly equal preference for cash and E-Wallets suggests a potential shift toward digital payments, which could be leveraged through targeted incentives.
 
 
 **. Initial Insights & Questions Raised:**
 
 •	Why does Naypyitaw have higher sales? Does this result from better promotions, a higher customer base, or favorable local conditions?
+
 •	What causes the sales spikes in February and March? Are there specific promotions or seasonal factors influencing this trend?
+
 •	How can the success of Branch C be replicated in other branches to boost sales performance?
+
 •	Can digital payments be further encouraged? Offering incentives for E-Wallet and credit card transactions could drive a shift toward faster and more secure transactions.
 
 
