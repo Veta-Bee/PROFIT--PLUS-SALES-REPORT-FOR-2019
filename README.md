@@ -15,6 +15,7 @@ The data was gathered through an automated process, integrating sales transactio
 
 
 **The dataset is structured in a tabular format, where:**
+
 •	Rows represent individual sales transactions or aggregated sales summaries by branch, city, or product category.
 •	Columns capture key variables such as date, sales amount, branch, city, product line, customer type, payment method, and gender.
 
@@ -63,6 +64,7 @@ The data was gathered through an automated process, integrating sales transactio
 •	Excel Functions: I used tools like IFERROR, VLOOKUP, and AVERAGEIF which was used to handle gaps efficiently.
 
 **. Data Transformations:**
+
 •	Aggregation: Sales data was grouped by month, city, and customer type to generate meaningful insights.
 •	New Variables: Metrics such as sales growth, percentage contributions of payment methods, and customer retention rates would be computed next time.
 
@@ -75,17 +77,24 @@ The data was gathered through an automated process, integrating sales transactio
 
 **. Stakeholders Benefiting from Analysis:**
 •	Marketing Team: They can leverage insights on high-performing products, seasonal trends, and customer behavior for better targeting.
+
 •	Operations & Supply Chain: This can help manage inventory more effectively based on demand fluctuations.
+
 •	Senior Management: The information gotten can be used to strategize branch expansions, promotions, and pricing adjustments.
+
 •	Finance Department: It gives clearer understanding of  sales trends and profitability for budget planning.
+
 
 
 **. Value to the Industry:**
 
 •	By optimizing product offerings, it can help determine which product categories are most profitable.
+
 •	By enhancing Customer Experience, it helps for easy understanding payment preferences and loyalty program effectiveness which can leads to better engagement.
 
 •	The competitive Advantage allows the company to stay ahead by leveraging sales trends and customer preferences for long-term growth.
+
+
 
 **. Key Trends:**
 
@@ -112,6 +121,7 @@ The data was gathered through an automated process, integrating sales transactio
 •	From branch location & performance, Branch C and Naypyitaw suggests that customer density, marketing strategies, or regional preferences significantly influence sales.
 •	From payment preferences & convenience, they have nearly equal preference for cash and E-Wallets suggests a potential shift toward digital payments, which could be leveraged through targeted incentives.
 
+
 **. Initial Insights & Questions Raised:**
 
 •	Why does Naypyitaw have higher sales? Does this result from better promotions, a higher customer base, or favorable local conditions?
@@ -122,11 +132,13 @@ The data was gathered through an automated process, integrating sales transactio
 
 **. Unconfirmed Insights (Hypotheses Yet to Be Verified):**
 
+
 **•	Higher Sales in Naypyitaw:**
 
 *Naypyitaw leads in total sales, surpassing Yangon and Mandalay. This could be due to higher customer traffic, regional demand trends, or more effective marketing strategies. Further data analysis is needed to confirm if this trend is consistent over time or influenced by specific promotions.
 
 **•	Seasonal Sales Spikes in February and March:**
+
 *There are noticeable sales peaks in early February and March, suggesting increased customer activity. This could be linked to seasonal promotions, local holidays, or external market conditions. A closer examination of promotional campaigns during these months is required to validate this hypothesis.
 
 **•	Branch C's Outstanding Performance:**
@@ -165,45 +177,63 @@ The data was gathered through an automated process, integrating sales transactio
 **. Analysis Techniques Used in Excel:**
 
 •	Pivot Tables was used to summarize sales data by branch, product line, customer type, and payment method, allowing for quick trend identification.
+
 •	Advanced Formulas like (VLOOKUP, HLOOKUP, INDEX-MATCH) was applied to cross-reference product categories, branch performance, and customer segments.
+
 •	Conditional Formatting helped in Highlighting key trends such as highest sales periods and top-performing branches.
+
 •	Charts & Graph was also used to visualize sales trends over time, customer spending habits, and product category performance.
+
 •	Data Filtering & Sorting was used to enable quick comparisons of sales across different locations and customer segments.
 
 
 **. Main Takeaways from the Analysis:**
 
+
 **•	Branch C is the Best Performer:**
 
 *Sales in Branch C (110,568.71) are significantly higher than in Branch A (106,200.37) and Branch B (106,197.67), making it the most successful location.
+
 *This suggests that Branch C's customer engagement, sales strategy, or location factors contribute to higher revenue.
+
 
 **•	Highest Sales Occurred in January 2023:**
 
 *Sales peaked in January 2023, indicating potential seasonal demand, successful promotions, or holiday shopping effects.
+
 *Further research is needed to identify whether this is a recurring pattern or a one-time spike.
+
 
 **•	Food & Beverages is the Best-Selling Product Line:**
 
 *The Food & Beverage category leads sales (56,144.84), followed by Sports & Travel (51,122.83).
+
 *This suggests a strong customer preference for consumables and travel-related products, which could guide future inventory and marketing strategies.
+
 
 **•	Cash is the Most Used Payment Method:**
 
 *While E-Wallets and credit cards are used, cash remains dominant.
+
 *Encouraging more digital payments could improve efficiency, transaction security, and data tracking.
 
+
 **•	Members Spend More Than Non-Members:**
+
 *Sales from loyalty program members ($164,223) exceed those from non-members ($158,743)
+
 *This reinforces the importance of loyalty programs in increasing repeat purchases.
+
 
 **•	Sales Spikes in February and March:**
 
 *There is a significant increase in sales in February and March which suggests that targeted marketing campaigns or seasonal trends drive customer spending.
+
 *These spikes should be further analyzed to determine if they can be replicated in other months.
 
 
 **. Comparison with Initial Expectations:**
+
 •	Branch C’s Success Was Expected, but the Margin Was Higher Than Anticipated meaning the initial insights suggested that Branch C might perform well, but its lead over Branches A and B was more significant than expected.
 
 •	The Popularity of the Food & Beverage Category Aligns with Initial Assumptions which means that Food & Beverages would be a top-performing category, and the analysis confirmed this.
@@ -220,7 +250,21 @@ The data was gathered through an automated process, integrating sales transactio
 
 Before building the charts, I conducted a pre-analysis to better understand the dataset and guide my storytelling process. This involved breaking down the data into meaningful components:
 
-Project Split: I categorized the data points into dependent and independent variables, helping me understand the relationships within the dataset and what types of insights could be extracted. Potential Analysis & Questions: From the grouped variables, I generated key questions that the dataset could answer. This step highlighted the potential insights hidden within the data, even before visualizing it. Preliminary Insights: By thinking through the questions and data points, I uncovered early insights, which made it easier to shape the narrative and focus the analysis on valuable outcomes. Storytelling: Once I had a clear understanding of the dataset, I could tell a story from it. By putting together the relationships between the datapoints and the insights uncovered. Industry & Stakeholders: This process helped me identify the relevant industry, the stakeholders who would benefit from the analysis, and what success would look like for the organization based on the findings.
+****Project Split:**
+
+I categorized the data points into dependent and independent variables, helping me understand the relationships within the dataset and what types of insights could be extracted. 
+
+**Potential Analysis & Questions:** 
+
+From the grouped variables, I generated key questions that the dataset could answer. This step highlighted the potential insights hidden within the data, even before visualizing it. 
+
+**Preliminary Insights:**
+
+By thinking through the questions and data points, I uncovered early insights, which made it easier to shape the narrative and focus the analysis on valuable outcomes. 
+
+**Storytelling:**
+
+Once I had a clear understanding of the dataset, I could tell a story from it. By putting together the relationships between the datapoints and the insights uncovered. Industry & Stakeholders: This process helped me identify the relevant industry, the stakeholders who would benefit from the analysis, and what success would look like for the organization based on the findings.
 
 
 **TOTAL AMOUNT BY CUSTOMER TYPE**
@@ -279,6 +323,7 @@ Branch C recorded the highest sales at $110,568.71, while branches A ($106,200.3
 
 
 **Recommendations**
+
 Leverage Branch C’s Success: Analyze its customer traffic, sales strategies, and promotional efforts to replicate the model in Branch A and B for enhanced sales performance.
 
 Expand Food & Beverage Offerings: Introduce new products, limited-time deals, or combo promotions to capitalize on customer demand and boost revenue.
@@ -301,19 +346,19 @@ Gender-Specific Campaigns: Develop marketing strategies tailored to both male an
 
 **Key Observations**
 
-Branch C’s Performance: Branch C outperformed all other branches with total sales of $110,568.71, indicating higher customer engagement or a larger volume of transactions compared to Branch A and B.
+**Branch C’s Performance:** Branch C outperformed all other branches with total sales of $110,568.71, indicating higher customer engagement or a larger volume of transactions compared to Branch A and B.
 
-Top-Selling Category: Food & Beverages generated the highest revenue at $56,144.84, highlighting its popularity as a frequently purchased category.
+**Top-Selling Category:** Food & Beverages generated the highest revenue at $56,144.84, highlighting its popularity as a frequently purchased category.
 
-Impact of Memberships: Members accounted for a significant share of sales, contributing $164,223.44, demonstrating that loyalty programs effectively drive higher spending.
+**Impact of Memberships:** Members accounted for a significant share of sales, contributing $164,223.44, demonstrating that loyalty programs effectively drive higher spending.
 
-Preferred Payment Methods: Cash remained the dominant payment method, followed by E-wallets and credit cards, suggesting that either traditional payment preferences persist or digital payment adoption is still developing.
+**Preferred Payment Methods:** Cash remained the dominant payment method, followed by E-wallets and credit cards, suggesting that either traditional payment preferences persist or digital payment adoption is still developing.
 
-Seasonal Sales Trends: Sales spiked notably in February and March, reaching $35,770.60 and $38,678.46, respectively, compared to more stable numbers in January. This indicates a possible influence of seasonal demand or marketing efforts.
+**Seasonal Sales Trends:** Sales spiked notably in February and March, reaching $35,770.60 and $38,678.46, respectively, compared to more stable numbers in January. This indicates a possible influence of seasonal demand or marketing efforts.
 
-Sales by City: Among the three cities, Naypyitaw led with the highest revenue ($110,568.71), closely followed by Yangon ($106,200.37) and Mandalay ($106,197.67), showing relatively even sales distribution but with a slight edge for Naypyitaw.
+**Sales by City**: Among the three cities, Naypyitaw led with the highest revenue ($110,568.71), closely followed by Yangon ($106,200.37) and Mandalay ($106,197.67), showing relatively even sales distribution but with a slight edge for Naypyitaw.
 
-Gender-Based Spending Patterns: Male customers spent slightly more than females, with total expenditures of $167,882.93 compared to $155,083.82, suggesting potential differences in purchasing behavior or product preferences.
+**Gender-Based Spending Patterns:** Male customers spent slightly more than females, with total expenditures of $167,882.93 compared to $155,083.82, suggesting potential differences in purchasing behavior or product preferences.
 
 
 **CONCLUSION**
