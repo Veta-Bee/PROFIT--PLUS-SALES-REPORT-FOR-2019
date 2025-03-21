@@ -203,5 +203,98 @@ The data was gathered through an automated process, integrating sales transactio
 
 •	The Dominance of Cash Transactions Was Not Initially Expected, It was assumed that E-Wallets or credit cards might be more widely used, but cash remains the preferred method, This then presents an opportunity to increase digital payment adoption through discounts or incentives
 
+**PRE-ANALYSIS**
+
+![Screenshot 2025-03-19 092059](https://github.com/user-attachments/assets/8c030b41-5e9a-42c5-92b0-3d99adab5b74)
+
+Before building the charts, I conducted a pre-analysis to better understand the dataset and guide my storytelling process. This involved breaking down the data into meaningful components:
+
+Project Split: I categorized the data points into dependent and independent variables, helping me understand the relationships within the dataset and what types of insights could be extracted. Potential Analysis & Questions: From the grouped variables, I generated key questions that the dataset could answer. This step highlighted the potential insights hidden within the data, even before visualizing it. Preliminary Insights: By thinking through the questions and data points, I uncovered early insights, which made it easier to shape the narrative and focus the analysis on valuable outcomes. Storytelling: Once I had a clear understanding of the dataset, I could tell a story from it. By putting together the relationships between the datapoints and the insights uncovered. Industry & Stakeholders: This process helped me identify the relevant industry, the stakeholders who would benefit from the analysis, and what success would look like for the organization based on the findings.
+
+**TOTAL AMOUNT BY CUSTOMER TYPE**
+
+![Screenshot 2025-03-19 091540](https://github.com/user-attachments/assets/52b126c4-c2ee-4756-8119-b2c5d038a7ee)
+
+The data indicates that members generate higher total sales ($164,223) compared to non-members ($158,743), suggesting that loyalty programs may positively influence spending behavior, but the margin is relatively small, highlighting potential opportunities to further differentiate member benefits to maximize customer retention and revenue growth
+
+**SALES AMOUNT BY DATE**
+
+![image](https://github.com/user-attachments/assets/0581b92c-b7c8-4009-ba3e-d5c5b7df0aea)
+
+The sales trend exhibits significant fluctuations, with a peak in January ($43,644.55) followed by a decline in mid-year (June: $17,195.63) and a secondary peak in September ($37,027.73), suggesting potential seasonality or external factors influencing purchasing behavior, while the sharp drop in November ($13,490.79) and December ($15,211.17) may indicate a need for targeted promotions to boost year-end sales.
+
+**SALES AMOUNT BY GENDER**
+
+![image](https://github.com/user-attachments/assets/b6eed6ac-2621-415d-b094-3017a3dda15e)
+
+The sales distribution by gender shows that female customers contributed slightly more ($167,882.93) than male customers ($155,083.82), indicating a near-balanced purchasing behavior but with a marginally higher engagement or spending tendency among female buyers, which could inform targeted marketing strategies.
+
+**SALES AMOUNT BY PRODUCT LINE**
+
+![image](https://github.com/user-attachments/assets/a488c79d-2992-4669-bd37-660f63964c42)
+
+The Food and Beverages category leads in total sales ($56,144.84), followed closely by Sports and Travel ($55,122.83) and Electronic Accessories ($54,337.53), while Health and Beauty ($49,193.74) has the lowest sales, suggesting that demand is relatively balanced across product lines, but promotional efforts could focus on boosting lower-performing categories.
+
+**PAYMENT TYPE BY RATING**
+
+![image](https://github.com/user-attachments/assets/f1c6b49c-e0bc-4a0e-95e5-48304b0dd7c5)
+
+The Cash (2,397.70) and E-wallet (2,397.00) payment methods received the highest ratings, while Credit Card (2,178.00) had the lowest, suggesting that customers may find cash and digital wallets more convenient or reliable, whereas credit cards may have certain drawbacks such as processing time or fees.
+
+**SALES AMOUNT BY CITY**
+
+![image](https://github.com/user-attachments/assets/2c811878-3dd6-439b-be96-80270455338e)
+
+The sales distribution across cities shows that Naypyitaw ($110,569) had the highest sales, followed closely by Yangon ($106,200) and Mandalay ($106,198), indicating a relatively balanced sales performance across all three cities with only a slight advantage in Naypyitaw.
+
+**SALES AMOUNT BY BRANCH**
+
+![image](https://github.com/user-attachments/assets/46252b7e-1397-4e13-bd62-a20207baa317)
+
+Branch C recorded the highest sales at $110,568.71, while branches A ($106,200.37) and B ($106,197.67) had almost identical sales figures, indicating a relatively balanced sales distribution across the branches, with only a slight lead by Branch C.
+
+**FINAL RECOMMENDATION**
+
+![Screenshot 2025-03-19 092514](https://github.com/user-attachments/assets/0dea4f03-3a90-4cf6-af67-33bfca2318dc)
+
+**Recommendations**
+Leverage Branch C’s Success: Analyze its customer traffic, sales strategies, and promotional efforts to replicate the model in Branch A and B for enhanced sales performance.
+
+Expand Food & Beverage Offerings: Introduce new products, limited-time deals, or combo promotions to capitalize on customer demand and boost revenue.
+
+Enhance Loyalty Programs: Provide personalized discounts, cashback rewards, and exclusive offers to increase customer engagement and spending.
+
+Encourage Digital Payments: Offer incentives for E-wallet and credit card transactions to drive a shift toward cashless payments, enhancing security and efficiency.
+
+**Market-Specific Strategies**
+
+Identify Seasonal Sales Trends: Understand the factors behind February and March sales spikes and apply similar strategies year-round through targeted campaigns and exclusive product launches.
+
+City-Specific Marketing: Strengthen presence in Naypyitaw while identifying growth opportunities in Yangon and Mandalay through localized promotions and partnerships.
+
+Gender-Specific Campaigns: Develop marketing strategies tailored to both male and female customers to ensure balanced brand appeal and maximize sales across demographics.
+
+![image](https://github.com/user-attachments/assets/61294316-80cd-4715-8d22-f896ae6b4453)
+
+**Key Observations**
+
+Branch C’s Performance: Branch C outperformed all other branches with total sales of $110,568.71, indicating higher customer engagement or a larger volume of transactions compared to Branch A and B.
+
+Top-Selling Category: Food & Beverages generated the highest revenue at $56,144.84, highlighting its popularity as a frequently purchased category.
+
+Impact of Memberships: Members accounted for a significant share of sales, contributing $164,223.44, demonstrating that loyalty programs effectively drive higher spending.
+
+Preferred Payment Methods: Cash remained the dominant payment method, followed by E-wallets and credit cards, suggesting that either traditional payment preferences persist or digital payment adoption is still developing.
+
+Seasonal Sales Trends: Sales spiked notably in February and March, reaching $35,770.60 and $38,678.46, respectively, compared to more stable numbers in January. This indicates a possible influence of seasonal demand or marketing efforts.
+
+Sales by City: Among the three cities, Naypyitaw led with the highest revenue ($110,568.71), closely followed by Yangon ($106,200.37) and Mandalay ($106,197.67), showing relatively even sales distribution but with a slight edge for Naypyitaw.
+
+Gender-Based Spending Patterns: Male customers spent slightly more than females, with total expenditures of $167,882.93 compared to $155,083.82, suggesting potential differences in purchasing behavior or product preferences.
+
+**CONCLUSION**
+
+The 2019 sales analysis reveals that Branch C had the highest revenue, with Food & Beverages as the top-selling product category. Cash was the most preferred payment method, though digital transactions are growing. Loyalty programs significantly boosted sales, with members contributing more than normal customers. Male customers spent slightly more than females, and Naypyitaw led in city-based sales. Seasonal demand drove revenue spikes in early months, while some months saw declines. To sustain growth, businesses should replicate successful sales strategies, enhance loyalty programs, expand high-performing product lines, and implement targeted marketing campaigns.
+
 
 
