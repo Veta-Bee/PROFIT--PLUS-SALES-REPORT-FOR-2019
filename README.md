@@ -1,3 +1,6 @@
+The following link provides access to the Profit-Plus Sales Analysis Report for 2019. This report offers valuable insights into sales trends and performance across various key dimensions such as customer demographics, geographical location, product categories, and payment methods.
+  https://drive.google.com/drive/folders/1-X5AXMU2dT2Z9iWzq0CVuk4pHlR8j0lp?usp=sharing)
+  
   # PROFIT--PLUS-SALES-REPORT-FOR-2019
 
 ![PROFIT -PLUS DASHBOARD](https://github.com/user-attachments/assets/ab663f9b-3f50-41a1-8538-d7b65255b675)
